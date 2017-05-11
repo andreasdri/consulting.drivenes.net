@@ -197,8 +197,8 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 300px;
-            padding-bottom: 200px;
+            padding-top: 200px;
+            padding-bottom: 132px;
             .intro-lead-in {
                 @include serif-font;
                 font-style: italic;
@@ -238,7 +238,7 @@ section {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        //padding: 150px 0;
     }
 }
 
@@ -253,8 +253,8 @@ section {
 
 #portfolio {
     .portfolio-item {
-        margin: 0 0 15px;
-        right: 0;
+        //margin: 0 0 15px;
+        //right: 0;
         .portfolio-link {
             display: block;
             position: relative;
@@ -317,7 +317,7 @@ section {
 @media(min-width:767px) {
     #portfolio {
         .portfolio-item {
-            margin: 0 0 30px;
+            //margin: 0 0 30px;
         }
     }
 }
@@ -735,4 +735,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: $theme-primary;
+}
+
+section#contact .section-subheading {
+        color: #fff;
 }
